@@ -10,7 +10,7 @@ Dish-TS is a general paradigm for time series forecasting against distribution s
 ## Usage
 Similar to [reversible instance normalization](https://openreview.net/forum?id=cGDAkQo1C0p), Dish-TS is model-agnostic such that it can be coupled with any forecasting architectures.
 
-Note that in experiments, we directly take the original data for training/evaluation, and do not use preprocessing techniques (e.g., z-score normalization, min-max normalization) to process time series dataset.
+Note that in experiments, we directly take the original data for training/evaluation to directly reflect the distribution shift in time series, and do not use preprocessing techniques (e.g., z-score normalization, min-max normalization) to process time series dataset.
 
 ## Citation
 If you find our work interesting, you can the paper as
