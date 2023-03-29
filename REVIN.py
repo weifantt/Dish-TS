@@ -4,14 +4,14 @@ import torch.nn as nn
 
 class RevIN(nn.Module):
     def __init__(self, args):
-        super().__init__(args)
+        super().__init__()
         if args.affine: # args.affine: use affine layers or not
             self.gamma = nn.Parameter(torch.ones(args.n_series)) # args.n_series: number of series
             self.beta = nn.Parameter(torch.zeros(args.n_series))
         else:
             self.gamma, self.beta = 1, 0
     
-    def forward(batch_x, mode='forward', dec_inp=None):
+    def forward(self, batch_x, mode='forward', dec_inp=None):
         if mode == 'forward':
             # batch_x: B*L*D || dec_inp: B*?*D (for xxformers)
             self.preget(batch_x)
