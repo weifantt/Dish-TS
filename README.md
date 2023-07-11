@@ -16,11 +16,13 @@ Note that in experiments, we directly take the original data for training/evalua
 If you find our work interesting, you can the paper as
 
 ```text
-@inproceedings{
-fan2023dish,
-title={Dish-TS: A General Paradigm for Alleviating Distribution Shift in Time Series Forecasting},
-author={Fan, Wei and Wang, Pengyang and Wang, Dongkun and Wang, Dongjie and Zhou, Yuanchun and Fu, Yanjie},
-booktitle={Proceedings of the AAAI conference on artificial intelligence},
-year={2023}
+@inproceedings{fan2023dish,
+  title={Dish-TS: A General Paradigm for Alleviating Distribution Shift in Time Series Forecasting},
+  author={Fan, Wei and Wang, Pengyang and Wang, Dongkun and Wang, Dongjie and Zhou, Yuanchun and Fu, Yanjie},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={6},
+  pages={7522--7529},
+  year={2023}
 }
 ```
